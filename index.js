@@ -22,7 +22,7 @@ let weatherStatus = "clear";
 console.log("-------------------------------------");
 console.log("LC04 - LAUNCH CHECKLIST");
 console.log("-------------------------------------");
-console.log("Date: "+ date);
+console.log("Date: " + date);
 console.log("Time: " + time) +"\n";
 
 console.log("-------------------------------------");
@@ -53,7 +53,7 @@ console.log("* weather: " + weatherStatus + "\n");
 console.log("-------------------------------------");
 console.log("> OVERALL STATUS");
 console.log("-------------------------------------");
-console.log("* Clear for takeoff: yes");
+console.log("* Clear for takeoff: YES");
 
 // When done, have your TA check your code.
 
