@@ -4,7 +4,7 @@
 // Declare and initialize the 12 variables here:
 const input = require("readline-sync");
 let date = "Monday 2019-03-18";
-let time = " 	10:05:34 AM";
+let time = "10:05:34 AM";
 let astronautCount = Number(input.question("How many Astronauts are on the ship? "));
 let astronautStatus = "ready";
 let averageAstronautMassKg = 80.7;
@@ -15,6 +15,7 @@ let totalMassKg =  	crewMassKg + fuelMassKg + shuttleMassKg;
 let fuelTempCelsius = -255;
 let fuelLevel = 100;
 let weatherStatus = "clear";
+let clearForTakeOff = "YES";
 
 
 
@@ -34,7 +35,7 @@ console.log("* status: " + astronautStatus + "\n");
 console.log("-------------------------------------");
 console.log("> FUEL DATA");
 console.log("-------------------------------------");
-console.log("* Fuel temp celsius: " + fuelTempCelsius);
+console.log("* Fuel temp celsius: " + fuelTempCelsius + " c");
 console.log("* Fuel level: " + fuelLevel + "%\n");
 
 console.log("-------------------------------------");
@@ -53,7 +54,7 @@ console.log("* weather: " + weatherStatus + "\n");
 console.log("-------------------------------------");
 console.log("> OVERALL STATUS");
 console.log("-------------------------------------");
-console.log("* Clear for takeoff: YES");
+console.log("* Clear for takeoff: " + clearForTakeOff);
 
 // When done, have your TA check your code.
 
